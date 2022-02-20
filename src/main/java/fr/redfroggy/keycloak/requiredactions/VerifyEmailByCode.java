@@ -56,8 +56,8 @@ public class VerifyEmailByCode implements RequiredActionProvider, RequiredAction
     public static final String LOGIN_VERIFY_EMAIL_CODE_TEMPLATE = "login-verify-email-code.ftl";
     public static final String CONFIG_CODE_LENGTH = "codeLength";
     public static final String CONFIG_CODE_SYMBOLS = "codeSymbols";
-    public static final int DEFAULT_CODE_LENGTH = 8;
-    public static final String DEFAULT_CODE_SYMBOLS = RandomString.alphanum;
+    public static final int DEFAULT_CODE_LENGTH = 6;
+    public static final String DEFAULT_CODE_SYMBOLS = RandomString.digits;
     private int codeLength;
     private String codeSymbols;
 
